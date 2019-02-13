@@ -1,7 +1,6 @@
 
-import num_funs
+import num_funs as nf
 
 
-print( num_funs.abs(-10))
-print( num_funs.even(10))
-print( num_funs.PI)
+print(nf.abs(-10))
+print(nf.even(10))
