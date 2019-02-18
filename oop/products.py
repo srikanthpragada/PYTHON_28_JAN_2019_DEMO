@@ -26,6 +26,7 @@ class DiscountProduct(Product):
         super().print_details()
         print(self.disrate)
 
+    # Overriding
     def get_net_price(self):
         grossprice = self.price - (self.price * self.disrate / 100)
         netprice = grossprice + (grossprice * Product.TAX / 100)
