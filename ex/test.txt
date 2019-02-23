@@ -1,0 +1,3 @@
+This is to test how many time each word is present in the file.
+This is second line.
+This is another line.
